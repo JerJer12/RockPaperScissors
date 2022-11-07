@@ -2,10 +2,27 @@
 <html lang="en" >
   <head>
     <meta charset="utf-8">
-    <title>Kő Papír Olló</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
   </head>
-  <body>
+    <body>
+      <div class="results">
+      <div>Your Choice: <span id="user-choice"></span></div>
+      <div>Computer Choice: <span id="computer-choice"></span></div>
+      </div>
+    <div class="result"><span id="result">Start!</span></div>
 
-    <script src="game.js" charset="utf-8"></script>
-  </body>
-</html>
+      <div class="choices">
+      <button class="choice" id="rock">✊</button>
+      <button class="choice" id="paper">✋</button>
+      <button class="choice" id="scissors">✌</button>
+     </div>
+
+     <div class="score">
+     <div>Your Score: <span id="youScore">0</span></div>
+      <div>Computer Score: <span id="comScore">0</span></div>
+      <div>Ties: <span id="tieScore">0</span></div>
+    </div>
+      <script src="game.js" charset="utf-8"></script>
+    </body>
+  </html>
