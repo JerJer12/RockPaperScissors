@@ -1,14 +1,14 @@
 body {
-    background-color: #CCC;
+   color: white;
+    background-image: url("wood.jpg");
   }
 
   .results {
     font-size: 2em;
-    margin-bottom: 3em;
-    justify-items:center;
     margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 1em;
+    justify-items:center;
+    line-height: 2;
+    
   }
   .result {
     font-size: 2em;
